@@ -9,7 +9,7 @@ const About = () => {
         <h1 className="about-title">About <span className="highlight">Me</span></h1>
         <div className="profile-container">
             <div className='profile-img-wrapper'>
-            <img src={me} className='profile-img'/>
+            <img src={me} className='profile-img' alt='aman'/>
             </div>
             <p className='about-description'>I am a passionate Electronics and Communications Engineer with a strong interest in innovative technology and problem-solving. 
             My academic journey has led me to work on impactful projects such as the FIFO and DMA for Hardware Accelerator used in Anomaly Detection, 
